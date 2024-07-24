@@ -2,7 +2,7 @@
 
 Es gibt bereits eine Integration für die beiden o.g. INKBIRD Sensoren über die INKBIRD Gateways IBS-M1 und IBS-M2 unter Verwendung des Tuya-Adapter im ioBroker. Diese Integration erlaubt z.B. auch die Einbindung von Bluetooth – Sensoren wie IBS-P01B. Die gleichzeitige Verbindung der Gateways mit der INKBIRD – Cloud und Nutzung der entsprechenden Apps ist nicht möglich. Das Verfahren ist hier beschrieben https://github.com/jurudolph/Inkbird
 
-Für die o.g. INKBIRD Sensoren mit 433 MHz RF gibt es eine Möglichkeit das RF Signal direkt zu verarbeiten und in ioBroker zu integrieren, ohne INKBIRD Gateway. Nebenbei können die Daten von ca. 250 andere 433 MHz RF Devices (Temperatur/Feuchtesensoren, Funkfernbedienungen, Reifendrucksensoren, Wetterstationen) empfangen werden.
+Für die o.g. INKBIRD Sensoren mit 433 MHz RF gibt es eine Möglichkeit das RF Signal direkt zu verarbeiten und in ioBroker zu integrieren, ohne INKBIRD Gateway. Nebenbei können die Daten von ca. 250 anderen 433 MHz RF Devices (Temperatur/Feuchtesensoren, Funkfernbedienungen, Reifendrucksensoren, Wetterstationen) empfangen werden.
 
 Benötigt werden:
 - ein RTL-SDR (RTL2832U USB Dongle) für ca. 20 € https://www.rtl-sdr.com/
@@ -11,3 +11,5 @@ Benötigt werden:
 - der ioBroker MQTT Broker/Server Adapter https://github.com/ioBroker/ioBroker.mqtt
 
 Details siehe Anleitung.pdf https://github.com/jurudolph/rtl_433/blob/main/Anleitung.pdf
+
+![image](https://github.com/user-attachments/assets/2c2fe64e-ea08-4089-8537-427c9329ac32)
