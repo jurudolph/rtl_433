@@ -10,6 +10,13 @@ Benötigt werden:
 - ggf. einen kleinen Server auf dem rtl_433 läuft, z.B. ein Raspberry Pi
 - der ioBroker MQTT Broker/Server Adapter https://github.com/ioBroker/ioBroker.mqtt
 
+Die Integration mit OpenHAB und Home Assistant über MQTT ist hier beschrieben:
+https://triq.org/rtl_433/INTEGRATION.html
+https://github.com/merbanan/rtl_433/wiki/How-to-integrate-rtl_433-sensors-into-openHAB-via-MQTT
+Sie ist für ioBroker analog.
+
+Hilfreich ist auch dieses Video (für openHAB) https://www.youtube.com/watch?v=WwAuQE2Z7h0
+
 Details siehe Anleitung.pdf https://github.com/jurudolph/rtl_433/blob/main/Anleitung.pdf
 
 ![image](https://github.com/user-attachments/assets/2c2fe64e-ea08-4089-8537-427c9329ac32)
